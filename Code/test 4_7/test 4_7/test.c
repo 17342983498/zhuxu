@@ -17,7 +17,7 @@ void menu()
 	printf("***   1.Add   2.Sub    ***\n");
 	printf("***   3.Mul   4.Div    ***\n");
 	printf("*******   0.exit   *******\n");
-	printf("**************************\n");	
+	printf("**************************\n");
 }
 int Add(int x, int y)
 {
@@ -37,7 +37,6 @@ int Div(int x, int y)
 }
 //int main()
 //{
-//	/*int(*p[4])(int, int) = { Add, Sub, Mul, Div };*/
 //	int input = 0;
 //	int x = 0;
 //	int y = 0;
@@ -78,31 +77,73 @@ int Div(int x, int y)
 //	} while (input);
 //	return 0;
 //}
-int main()
+//int main()
+//{
+//	int x = 0;
+//	int y = 0;
+//	int input = 0;
+//	int(*pfArr[5])(int, int) = { 0, Add, Sub, Mul, Div };
+//	do
+//	{
+//		menu();
+//		printf("请输入一个数！");
+//		scanf("%d", &input);
+//		if (input >= 1 && input <= 4)
+//		{
+//			printf("请输入两个操作数！");
+//			scanf("%d %d", &x, &y);
+//			int ret = (*pfArr[input])(x, y);//*可以省略
+//			printf("%d\n", ret);
+//		}
+//		else if (input == 0)
+//		{
+//			printf("推出程序！\n");
+//		}
+//		else
+//		{
+//			printf("输入错误，请重新输入！\n");
+//		}
+//	} while (input);
+//	return 0;
+//}
+void Calc(int(*pf)(int, int))
 {
 	int x = 0;
 	int y = 0;
+	printf("请输入两个操作数：>");
+	scanf("%d %d", &x, &y);
+	printf("%d\n", (*pf)(x, y));
+}
+int main()
+{
 	int input = 0;
-	int(*pfArr[5])(int, int) = { 0, Add, Sub, Mul, Div };
+	int x = 0;
+	int y = 0;
 	do
 	{
 		menu();
-		printf("请输入一个数！");
+		printf("请输入一个数：>");
 		scanf("%d", &input);
-		if (input >= 1 && input <= 4)
+		switch (input)
 		{
-			printf("请输入两个操作数！");
-			scanf("%d %d", &x, &y);
-			int ret = (*pfArr[input])(x, y);//*可以省略
-			printf("%d\n", ret);
-		}
-		else if (input == 0)
-		{
-			printf("推出程序！\n");
-		}
-		else
-		{
+		case 1:
+			Calc(Add);
+			break;
+		case 2:
+			Calc(Sub);
+			break;
+		case 3:
+			Calc(Mul);
+			break;
+		case 4:
+			Calc(Div);
+			break;
+		case 0:
+			printf("退出程序！\n");
+			break;
+		default:
 			printf("输入错误，请重新输入！\n");
+			break;
 		}
 	} while (input);
 	return 0;
