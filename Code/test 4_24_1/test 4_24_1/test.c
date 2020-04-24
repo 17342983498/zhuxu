@@ -65,16 +65,16 @@
 //	double k;
 //	//16
 //}
-//#pragma pack(8)
-//struct Stu
-//{
-//	char i;
-//	double k;
-//	int j;
-//	//24
-//};
-//int main()
-//{
-//	printf("%d ", sizeof(struct Stu));
-//	return 0;
-//}
+#pragma pack(8)
+struct Stu
+{
+	char i;
+	double k;
+	int j;
+	//24
+};
+int main()
+{
+	printf("%d ", sizeof(struct Stu));
+	return 0;
+}
