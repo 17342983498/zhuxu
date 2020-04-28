@@ -7,6 +7,16 @@
 #define MAX_ADDR 30
 #include<stdio.h>
 #include<string.h>
+enum Option
+{
+	EXIT,
+	ADD,
+	DEL,
+	SEARCH,
+	MODIFY,
+	SHOW,
+	SORT,
+};
 struct PeoInfo
 {
 	char name[MAX_NAME];
@@ -24,8 +34,16 @@ struct Contact
 
 //声明函数
 
-void InitContcat(struct Contact* ps);
+void InitContcat(struct Contact* ps);//初始化同学录
 
-void AddContact(struct Contact* ps);
+void AddContact(struct Contact* ps);//增加
 
-void ShowContact(const struct Contact* ps);
+void ShowContact(const struct Contact* ps);//展示
+
+void DelContact(struct Contact* ps);//删除
+
+void SearchContact(struct Contact* ps);//查找
+
+void ModifyContact(struct Contact* ps);//修改
+
+void SortContact(struct Contact* ps);//排序
