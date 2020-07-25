@@ -1,0 +1,13 @@
+﻿生成启动时间为 2020/7/25 19:42:13。
+     1>项目“C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\C++ 7-25-1\C++ 7-25-1\C++ 7-25-1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>c:\users\lenovo\documents\visual studio 2013\projects\比特\c++ 7-25-1\c++ 7-25-1\test.cpp(37): error C3312: 未找到类型“int []”的可调用“begin”函数
+     1>c:\users\lenovo\documents\visual studio 2013\projects\比特\c++ 7-25-1\c++ 7-25-1\test.cpp(37): error C3312: 未找到类型“int []”的可调用“end”函数
+     1>c:\users\lenovo\documents\visual studio 2013\projects\比特\c++ 7-25-1\c++ 7-25-1\test.cpp(38): error C2065: “e”: 未声明的标识符
+     1>已完成生成项目“C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\C++ 7-25-1\C++ 7-25-1\C++ 7-25-1.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.17
