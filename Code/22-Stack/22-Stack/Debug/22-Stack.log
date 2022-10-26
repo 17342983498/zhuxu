@@ -1,14 +1,17 @@
-﻿生成启动时间为 2022/10/21 21:14:55。
-     1>项目“C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\22-Stack\22-Stack\22-Stack.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2022/10/26 22:34:20。
+     1>项目“C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\Azhuxu\Code\22-Stack\22-Stack\22-Stack.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt stack.c
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt stack.c test.c
+         test.c
+     1>c:\users\lenovo\documents\visual studio 2013\projects\比特\azhuxu\code\22-stack\22-stack\test.c(7): warning C4013: “test”未定义；假设外部返回 int
          stack.c
+         正在生成代码...
        Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\22-Stack\Debug\22-Stack.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\22-Stack\Debug\22-Stack.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\22-Stack\Debug\22-Stack.lib" /MACHINE:X86 Debug\stack.obj
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\Azhuxu\Code\22-Stack\Debug\22-Stack.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\Azhuxu\Code\22-Stack\Debug\22-Stack.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\Azhuxu\Code\22-Stack\Debug\22-Stack.lib" /MACHINE:X86 Debug\stack.obj
          Debug\test.obj
-         22-Stack.vcxproj -> C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\22-Stack\Debug\22-Stack.exe
-     1>已完成生成项目“C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\22-Stack\22-Stack\22-Stack.vcxproj”(Build 个目标)的操作。
+         22-Stack.vcxproj -> C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\Azhuxu\Code\22-Stack\Debug\22-Stack.exe
+     1>已完成生成项目“C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\Azhuxu\Code\22-Stack\22-Stack\22-Stack.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.44
+已用时间 00:00:01.57
