@@ -1,0 +1,11 @@
+﻿生成启动时间为 2023/2/17 21:26:58。
+     1>项目“C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\23-2-17\23-2-17\23-2-17.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>c:\users\lenovo\documents\visual studio 2013\projects\比特\23-2-17\23-2-17\test.cpp(39): error C2228: “.c_str”的左边必须有类/结构/联合
+     1>已完成生成项目“C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\23-2-17\23-2-17\23-2-17.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.88
