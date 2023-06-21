@@ -1,0 +1,12 @@
+﻿生成启动时间为 2023/6/21 星期三 19:05:11。
+     1>项目“C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\23-6-21\23-6-21\23-6-21.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\23-6-21\Debug\23-6-21.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\23-6-21\Debug\23-6-21.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\23-6-21\Debug\23-6-21.lib" /MACHINE:X86 Debug\Func.obj
+         Debug\test.obj
+     1>test.obj : error LNK2019: 无法解析的外部符号 "int __cdecl add<int>(int const &,int const &)" (??$add@H@@YAHABH0@Z)，该符号在函数 _main 中被引用
+     1>C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\23-6-21\Debug\23-6-21.exe : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\比特\23-6-21\23-6-21\23-6-21.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.25
